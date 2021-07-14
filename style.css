@@ -1,0 +1,18 @@
+
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: 575757;
+}
+.flexible-section{
+    display: flex;
+}
+.content-area{
+    width: 50%;
+}
+.orange-colour {
+    color: orange;
+}
