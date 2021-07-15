@@ -1,18 +1,45 @@
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 p{
     font-size: 20px;
 }
 h1{
     font-size: 60px;
     font-weight: bold;
-    color: 575757;
+    color: #575757;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-area p{
+    margin-bottom: 50px;
 }
 .flexible-section{
     display: flex;
 }
-.content-area{
+.half-width{
     width: 50%;
+}
+.top-content {
+    margin-top: 150px;
+}
+.half-width img{
+    max-width: 100%;
+    margin-top: 25px;
 }
 .orange-colour {
     color: orange;
+}
+.custom-button {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 35px;
+    box-shadow: #fba24f 0px 0px 10px;
 }
